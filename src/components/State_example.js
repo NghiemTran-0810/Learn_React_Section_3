@@ -10,6 +10,7 @@ class StateExample extends React.Component {
     render() {
         return (
             <p>{this.state.name} live in {this.state.address}</p>
+
         )
     }
 }

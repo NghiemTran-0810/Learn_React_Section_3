@@ -5,15 +5,17 @@ import { increaseCounter, decreaseCounter } from './redux/action/counterAction';
 
 // 
 import React from 'react';
-import Foo from './components/Foo';
-import StateExample from './components/State_example';
+// import Foo from './components/Foo';
+// import StateExample from './components/State_example';
+import Buttonclick from './components/Events';
 
 class App extends React.Component {
   render() {
     return (
       <div>
         {/* <Foo /> */}
-        <StateExample />
+        {/* <StateExample /> */}
+        <Buttonclick />
       </div>
     )
   }
