@@ -9,10 +9,6 @@ class Buttonclick extends React.Component {
     }
 
     //Function 
-    // handleClick = (event) => {
-    //     console.log(`you clicked on button ${this.state.language}`);
-    // }
-
     //Recommend this syntax
     handleClick() {
         console.log(`you clicked on button ${this.state.language}`);
@@ -27,9 +23,7 @@ class Buttonclick extends React.Component {
         return (
             <>
                 <p>This is event In {this.state.language} </p>
-                {/* <button onClick={this.handleCLick}>{this.state.content}</button> */}
-                {/* // call a func has created in class(object), we should use kw ' this' */}
-
+                {/* //Recommend this syntax */}
                 <button onClick={(event) => { this.handleClick(event) }}
                 >{this.state.content}</button>
             </>

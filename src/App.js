@@ -7,7 +7,8 @@ import { increaseCounter, decreaseCounter } from './redux/action/counterAction';
 import React from 'react';
 // import Foo from './components/Foo';
 // import StateExample from './components/State_example';
-import Buttonclick from './components/Events';
+// import Buttonclick from './components/Events';
+import Form from './components/Form';
 
 class App extends React.Component {
   render() {
@@ -15,7 +16,8 @@ class App extends React.Component {
       <div>
         {/* <Foo /> */}
         {/* <StateExample /> */}
-        <Buttonclick />
+        {/* <Buttonclick /> */}
+        <Form />
       </div>
     )
   }
