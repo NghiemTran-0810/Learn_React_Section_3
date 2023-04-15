@@ -4,7 +4,7 @@ class DisplayInfo extends React.Component {
 
     render() {
 
-        const { name, age, make, colleague } = this.props;
+        const { name, make, colleague } = this.props;
 
         return (
             <>

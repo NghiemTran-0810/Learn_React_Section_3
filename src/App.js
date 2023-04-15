@@ -8,7 +8,8 @@ import React from 'react';
 // import Foo from './components/Foo';
 // import StateExample from './components/State_example';
 // import Buttonclick from './components/Events';
-import Form from './components/Form';
+// import Form from './components/Form';
+import ListUser from './components/Loops';
 
 class App extends React.Component {
   render() {
@@ -17,7 +18,8 @@ class App extends React.Component {
         {/* <Foo /> */}
         {/* <StateExample /> */}
         {/* <Buttonclick /> */}
-        <Form />
+        {/* <Form /> */}
+        <ListUser />
       </div>
     )
   }
