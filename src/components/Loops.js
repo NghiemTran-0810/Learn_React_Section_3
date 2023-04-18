@@ -7,30 +7,32 @@ class ListUser extends React.Component {
             {
                 id: 1,
                 name: 'John',
-                age: 36,
+                age: '36',
             },
             {
                 id: 1,
                 name: 'tom',
-                age: 24,
+                age: '24',
             },
             {
                 id: 1,
                 name: 'tobey',
-                age: 46,
+                age: '46',
             },
             {
                 id: 1,
                 name: 'danniel',
-                age: 34,
+                age: '34',
             },
             {
                 id: 1,
                 name: 'logan',
-                age: 19,
+                age: '19',
             },
         ]
     }
+
+
     render() {
         return (
             <>
