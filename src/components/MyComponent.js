@@ -1,7 +1,7 @@
-import React from "react";
-import User from "./UserForLoops";
-
-class ListUser extends React.Component {
+import React from 'react';
+import AddUser from './AddUser';
+import User from './User';
+class List extends React.Component {
     state = {
         listUser: [
             {
@@ -12,7 +12,7 @@ class ListUser extends React.Component {
             {
                 id: 1,
                 name: 'tom',
-                age: '24',
+                age: '12',
             },
             {
                 id: 1,
@@ -22,7 +22,7 @@ class ListUser extends React.Component {
             {
                 id: 1,
                 name: 'danniel',
-                age: '34',
+                age: '8',
             },
             {
                 id: 1,
@@ -31,14 +31,19 @@ class ListUser extends React.Component {
             },
         ]
     }
+    handleNewUser = () => {
+        return alert(this)
+    }
 
 
     render() {
         return (
             <>
+                <AddUser handleNewUser={this.handleNewUser} />
                 <User listUser={this.state.listUser} />
             </>
         )
     }
-}
-export default ListUser;
+
+};
+export default List; 
